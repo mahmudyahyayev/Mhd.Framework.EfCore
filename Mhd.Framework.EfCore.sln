@@ -5,9 +5,24 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B8B0780B-8C28-480E-BA98-2A31A670F7FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mhd.Framework.EfCore", "src\Mhd.Framework.EfCore\Mhd.Framework.EfCore.csproj", "{0B59FC97-55A6-4D31-B29B-0F6B67C0D89C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B59FC97-55A6-4D31-B29B-0F6B67C0D89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B59FC97-55A6-4D31-B29B-0F6B67C0D89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B59FC97-55A6-4D31-B29B-0F6B67C0D89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B59FC97-55A6-4D31-B29B-0F6B67C0D89C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B59FC97-55A6-4D31-B29B-0F6B67C0D89C} = {B8B0780B-8C28-480E-BA98-2A31A670F7FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5200574-163D-4008-BAD1-A3430437F5F7}
